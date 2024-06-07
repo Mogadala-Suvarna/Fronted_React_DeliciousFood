@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin:0px;
+    font-family: "Noto Sans", sans-serif;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+.navSection{
+ 
+    background-color: rgb(25, 37, 201);
+    height:70px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 20px;
+    padding-top: 20px;
+    font-size: large;
+    cursor:pointer;
+
+}
+.SideBarSection{
+   
+    width:250px;
+    height: 35em;
+    padding-top: 10px;
+    background-color: pink;
+}
+.SideBarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight:600;
+    font-size: 20px;
+    cursor: pointer;
+     
+}
+
+.collectionSection{
+    display: flex;
+    width:100%;
+    
+    
+}
+
+/*login section*/
+
+.loginSection{
+    
+    width:75em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+    
+
+
+}
+
+.formSection{
+    width:50%;
+    max-width: 30%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+
+}
+.formSection input{
+    width:100%;
+    max-width: 70%;
+    height:30px;
+}
+
+/*registration section*/
+
+.registerSection{
+    
+    width:80em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-weight:500;
+}
+
+/*firmsection AddFirm*/
+
+.firmSection{
+    
+        width:80em;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        font-weight:500;
+        
+        margin-top: 10px;
+ 
+}
+.tableForm{
+    width:50%;
+    max-width: 40%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 50px;
+    padding:20px;
+    
+
+}
+.tableForm label{
+    font-weight:500;
+    width:100%;
+    max-width: 50%;
+    
+}
+
+.tableForm input{
+    font-weight:300;
+    width:100%;
+    max-width: 90%;
+    
+}
+
+/*Add Product*/
+
+.tableForm1 label{
+    font-weight:500;
+    width:100%;
+    max-width: 200em;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tableForm1{
+    width:70%;
+    max-width: 40%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 5px;
+   
+    
+    
+
+}
+.tableForm1 input{
+    font-weight:500;
+    width:100%;
+    max-width: 70%;
+    height:25px;
+    
+}
+
+/*chechbox inputs*/
+.check-inp{
+    
+
+    display:flex;
+    width: 100%;
+    max-width:30em;
+}
+.inputContainer{
+   
+    display: flex;
+    justify-content:right;
+    
+    
+}
+.check-inp label{
+
+    width: 100%;
+    
+}
+.chechboxContainer{
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  
+   
+
+}
+.chechboxContainer label{
+   
+    width:9em;
+    
+  
+    
+
+}
+.chechboxContainer input{
+    
+    box-sizing: border-box;
+  
+   
+
+}
